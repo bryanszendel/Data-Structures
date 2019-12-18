@@ -27,7 +27,7 @@ class LRUCache:
             self.order.move_to_end(node)
             return node.value[1]
         else:
-            return 
+            return None
 
     """
     Adds the given key-value pair to the cache. The newly-
